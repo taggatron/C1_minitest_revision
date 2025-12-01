@@ -1,17 +1,18 @@
-# Biology B1 Revision Flashcards
+# Chemistry C1 Mini-Test Revision Flashcards
 
-An interactive web application for studying Biology B1 revision topics through digital flashcards.
+An interactive web application for studying Chemistry C1 mini-test topics through digital flashcards.
 
 ## Features
 
-- **16 Biology Questions**: Comprehensive coverage of B1 topics including:
-  - Cell biology (eukaryotic/prokaryotic cells)
-  - Microscopy and magnification calculations
-  - Enzyme function and optimum conditions
-  - Digestive enzymes
-  - Respiration (aerobic and anaerobic)
-  - Photosynthesis and limiting factors
-  - Percentage calculations
+- **16 Chemistry Questions**: Coverage of key C1 topics including:
+  - Structure of the atom (sub-atomic particles, nucleus)
+  - Development of atomic models (Bohr model)
+  - Atomic size and isotopes
+  - Arrangement of elements in the Periodic Table
+  - Group patterns and ion formation (Groups 1 and 6)
+  - Covalent bonding and structure (diamond, graphite, chlorine)
+  - Metals vs non-metals and conductivity
+  - Changes of state and particle explanations
 
 - **Interactive Flashcards**: 
   - Click any card to flip between question and answer
@@ -33,9 +34,9 @@ An interactive web application for studying Biology B1 revision topics through d
 ### Method 1: Local Web Server (Recommended)
 1. Open Terminal/Command Prompt
 2. Navigate to the project folder:
-   ```bash
-   cd "/Users/danieltagg/Desktop/Desktop - Daniel's MacBook Pro/B1revision"
-   ```
+  ```bash
+  cd "/Users/macbookname/C1_minitest_revision"
+  ```
 3. Start a local web server:
    ```bash
    python3 -m http.server 8000
@@ -57,7 +58,7 @@ An interactive web application for studying Biology B1 revision topics through d
 ## File Structure
 
 ```
-B1revision/
+C1_minitest_revision/
 ├── index.html      # Main HTML structure
 ├── style.css       # All styling and animations
 ├── script.js       # JavaScript functionality and flashcard data
@@ -66,13 +67,18 @@ B1revision/
 
 ## Question Topics Covered
 
-1. **Cell Biology**: Eukaryotic vs Prokaryotic cells
-2. **Microscopy**: Magnification calculations and slide preparation
-3. **Enzymes**: Lock and key mechanism, optimum conditions, factors affecting enzyme rate
-4. **Digestive System**: Four main digestive enzymes and their substrates
-5. **Respiration**: Aerobic respiration equation, mitochondria function, anaerobic respiration products
-6. **Photosynthesis**: Location, limiting factors, investigation methods
-7. **Mathematics**: Percentage calculations
+1. **Particles & Models**: Protons, neutrons, electrons and their charges
+2. **Atomic Models Over Time**: Bohr’s model with electrons in fixed energy levels
+3. **Size and Mass of Atoms**: Approximate atomic size and where mass is located
+4. **Isotopes**: Same number of protons, different numbers of neutrons
+5. **Periodic Table**: Arrangement by increasing atomic number
+6. **Groups and Reactivity**: Group number and outer-shell electrons (Groups 1–7)
+7. **Ions**: Formation of anions, Group 1 ions (e.g. Rb⁺), and Group 6 ions (X²⁻)
+8. **Covalent Bonding**: Shared pairs of electrons
+9. **Bonding and Properties**: Diamond vs chlorine melting points
+10. **Metals vs Non-metals**: Electrical conductivity as a key property
+11. **Changes of State**: Condensation of bromine (gas → liquid)
+12. **Giant and Simple Structures**: Graphite layers and polymer intermolecular forces
 
 ## Technical Details
 
@@ -91,4 +97,4 @@ B1revision/
 
 ---
 
-Created for Biology B1 Revision - Good luck with your studies! 🧬🔬
+Created for Chemistry C1 Mini-Test Revision - good luck with your studies! ⚗️🧪
